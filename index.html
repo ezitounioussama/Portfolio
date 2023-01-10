@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.6.1/dist/flowbite.min.css"
+    />
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon" />
+    <title>Oussama Ezitouni</title>
+  </head>
+  <header>
+    <!-- NavBar Start Here -->
+
+    <nav
+      class="bg-white px-2 sm:px-4 py-2.5 dark:bg-[#1f2235] fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
+    >
+      <div
+        class="container flex flex-wrap items-center justify-between mx-auto"
+      >
+        <a href="https://flowbite.com/" class="flex items-center">
+          <img
+            src="images/logo.jpg"
+            class="h-6 mr-3 sm:h-9"
+            alt="Flowbite Logo"
+          />
+          <span
+            class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+            >Ezitouni</span
+          >
+        </a>
+        <div class="flex md:order-2">
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-2"
+          id="navbar-sticky"
+        >
+          <ul
+            class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-[#1f2235] md:dark:bg-[#1f2235] dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >About</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Resume</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar Ends here  -->
+  </header>
+  <body>
+    <section class="mt-10 bg-[#24263b]">
+      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+          <div
+            class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full"
+          >
+            <img
+              alt="Party"
+              src="images/photo_2023-01-09_10-55-31.jpg"
+              class="absolute inset-0 h-full w-full object-cover"
+            />
+          </div>
+
+          <div class="lg:py-24">
+            <h1 class="text-3xl my-4 font-bold sm:text-4xl text-white">
+              Im Oussama Ezitouni
+            </h1>
+
+            <p class="mt-4 text-xl text-white">
+              i'm Oussama, professional web developer with good experience in
+              this field​
+            </p>
+            <!-- Base -->
+
+            <a
+              class="group relative inline-block focus:outline-none focus:ring my-8"
+              href="#"
+            >
+              <span
+                class="absolute inset-0 translate-x-1.5 rounded-xl translate-y-1.5 bg-red-500 transition-transform group-hover:translate-y-0 group-hover:translate-x-0"
+              ></span>
+
+              <span
+                class="relative inline-block rounded-xl border-2 border-white px-8 py-3 text-sm font-bold uppercase tracking-widest text-white group-active:text-opacity-75"
+              >
+                Portfolio
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#1f2235] text-white">
+      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-lg text-center">
+          <ion-icon
+            name="settings-outline"
+            class="h-16 w-16 text-red-500 mb-2"
+          ></ion-icon>
+          <h1 class="text-3xl font-bold sm:text-4xl">My Services</h1>
+
+          <p class="mt-4 text-gray-300">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum standard dummy text.
+          </p>
+        </div>
+
+        <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <a
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-red-500/10 hover:shadow-red-500/10"
+            href="#"
+          >
+            <ion-icon
+              class="h-10 w-10 text-red-500"
+              name="code-outline"
+            ></ion-icon>
+
+            <h2 class="mt-4 text-xl font-bold text-white">Front Developer</h2>
+
+            <p class="mt-1 text-sm text-gray-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+              possimus adipisci distinctio alias voluptatum blanditiis
+              laudantium.
+            </p>
+          </a>
+
+          <a
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-red-500/10 hover:shadow-red-500/10"
+            href=""
+          >
+            <ion-icon
+              class="h-10 w-10 text-red-500"
+              name="bug-outline"
+            ></ion-icon>
+            <h2 class="mt-4 text-xl font-bold text-white">Backend Developer</h2>
+
+            <p class="mt-1 text-sm text-gray-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+              possimus adipisci distinctio alias voluptatum blanditiis
+              laudantium.
+            </p>
+          </a>
+
+          <a
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-red-500/10 hover:shadow-red-500/10"
+            href="/services/digital-campaigns"
+          >
+            <ion-icon
+              class="h-10 w-10 text-red-500"
+              name="code-working-outline"
+            ></ion-icon>
+            <h2 class="mt-4 text-xl font-bold text-white">
+              FullStack Developer
+            </h2>
+
+            <p class="mt-1 text-sm text-gray-300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo
+              possimus adipisci distinctio alias voluptatum blanditiis
+              laudantium.
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#24263b] text-white">
+      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-lg text-center">
+          <ion-icon
+            name="person-circle-outline"
+            class="h-16 w-16 text-red-500 mb-2"
+          ></ion-icon>
+
+          <h1 class="text-3xl font-bold sm:text-4xl">About Me</h1>
+
+          <p class="mt-4 text-gray-300">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum standard dummy text.
+          </p>
+        </div>
+        <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+            <div
+              class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-full"
+            >
+              <img
+                alt="Party"
+                src="images/photo_2023-01-09_10-55-31.jpg"
+                class="absolute inset-0 h-full w-full object-cover"
+              />
+            </div>
+
+            <div class="lg:py-24">
+              <h1 class="text-3xl my-4 font-bold sm:text-4xl text-white">
+                Hi There
+              </h1>
+
+              <p class="mt-4 text-xl text-white">
+                In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui
+                at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id
+                efficitur sagittis, urna est ultricies eros, ac porta sem turpis
+                <br />
+                <br />
+                nunc id efficitur sagittis, urna est ultricies eros, ac porta
+                sem turpis porta sem turpis quis leo. Nulla in feugiat elit
+              </p>
+              <!-- Base -->
+
+              <article
+                class="rounded-xl border border-gray-700 bg-[#1f2235] p-4 mt-8"
+              >
+                <ul class="mt-2 space-y-4">
+                  <li>
+                    <a
+                      href="#"
+                      class="block h-full rounded-lg border bg-[#1f2235] border-gray-700 p-4 hover:border-red-500"
+                    >
+                      <strong class="font-medium text-white">Full Name</strong>
+
+                      <p class="mt-1 text-xs font-medium text-gray-300">
+                        Oussama Ezitouni
+                      </p>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="#"
+                      class="block h-full rounded-lg border bg-[#1f2235] border-gray-700 p-4 hover:border-red-500"
+                    >
+                      <strong class="font-medium text-white">Phone</strong>
+
+                      <p class="mt-1 text-xs font-medium text-gray-300">
+                        +212 623 438 624
+                      </p>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block h-full rounded-lg border bg-[#1f2235] border-gray-700 p-4 hover:border-red-500"
+                    >
+                      <strong class="font-medium text-white">Email</strong>
+
+                      <p class="mt-1 text-xs font-medium text-gray-300">
+                        ezitounioussama@gmail.com
+                      </p>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="#"
+                      class="block h-full rounded-lg border bg-[#1f2235] border-gray-700 p-4 hover:border-red-500"
+                    >
+                      <strong class="font-medium text-white">LinkedIn</strong>
+
+                      <p class="mt-1 text-xs font-medium text-gray-300">
+                        oussama-ezitouni
+                      </p>
+                    </a>
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#1f2235] text-white">
+      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-lg text-center">
+          <ion-icon
+            name="hardware-chip-outline"
+            class="h-16 w-16 text-red-500 mb-2"
+          ></ion-icon>
+          <h1 class="text-3xl font-bold sm:text-4xl">Skills & Technologies</h1>
+
+          <p class="mt-4 text-gray-300">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum standard dummy text.
+          </p>
+        </div>
+
+        <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-4">
+          <a
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-red-500/10 hover:shadow-red-500/10"
+            href="#"
+          >
+            <ion-icon
+              name="logo-html5"
+              class="h-10 w-10 text-red-500"
+            ></ion-icon>
+            <h2 class="mt-4 text-xl font-bold text-white">HTML5</h2>
+          </a>
+          <a
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-red-500/10 hover:shadow-red-500/10"
+            href="#"
+          >
+            <ion-icon
+              name="logo-javascript"
+              class="h-10 w-10 text-red-500"
+            ></ion-icon>
+            <h2 class="mt-4 text-xl font-bold text-white">JavaScript</h2>
+          </a>
+
+          <a
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-red-500/10 hover:shadow-red-500/10"
+            href=""
+          >
+            <ion-icon
+              name="logo-laravel"
+              class="h-10 w-10 text-red-500"
+            ></ion-icon>
+            <h2 class="mt-4 text-xl font-bold text-white">Laravel</h2>
+          </a>
+
+          <a
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-red-500/10 hover:shadow-red-500/10"
+            href="/services/digital-campaigns"
+          >
+            <ion-icon
+              name="logo-github"
+              class="h-10 w-10 text-red-500"
+            ></ion-icon>
+            <h2 class="mt-4 text-xl font-bold text-white">Github</h2>
+          </a>
+          <a
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-red-500/10 hover:shadow-red-500/10"
+            href="#"
+          >
+            <ion-icon
+              name="git-branch-outline"
+              class="h-10 w-10 text-red-500"
+            ></ion-icon>
+            <h2 class="mt-4 text-xl font-bold text-white">Git</h2>
+          </a>
+          <a
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-red-500/10 hover:shadow-red-500/10"
+            href="#"
+          >
+            <ion-icon name="logo-tux" class="h-10 w-10 text-red-500"></ion-icon>
+            <h2 class="mt-4 text-xl font-bold text-white">Linux</h2>
+          </a>
+
+          <a
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-red-500/10 hover:shadow-red-500/10"
+            href=""
+          >
+            <ion-icon
+              name="logo-react"
+              class="h-10 w-10 text-red-500"
+            ></ion-icon>
+            <h2 class="mt-4 text-xl font-bold text-white">React</h2>
+          </a>
+
+          <a
+            class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-red-500/10 hover:shadow-red-500/10"
+            href="/services/digital-campaigns"
+          >
+            <ion-icon
+              name="logo-nodejs"
+              class="h-10 w-10 text-red-500"
+            ></ion-icon>
+            <h2 class="mt-4 text-xl font-bold text-white">NodeJs</h2>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/flowbite@1.6.1/dist/flowbite.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
