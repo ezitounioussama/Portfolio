@@ -29,3 +29,6 @@ navItems.forEach((navItem) => {
     event.currentTarget.classList.add("bg-blue-700");
   });
 });
+
+// effects
+ScrollReveal().reveal(".headline");
