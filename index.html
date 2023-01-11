@@ -11,6 +11,7 @@
       href="https://unpkg.com/flowbite@1.6.1/dist/flowbite.min.css"
     />
     <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon" />
+    <script src="script.js" defer></script>
     <title>Oussama Ezitouni</title>
   </head>
   <header>
@@ -67,7 +68,7 @@
             <li>
               <a
                 href="#home"
-                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                class="nav-item block py-2 pl-3 pr-4 text-gray-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-gray-400"
                 aria-current="page"
                 >Home</a
               >
@@ -75,14 +76,15 @@
             <li>
               <a
                 href="#services"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                class="nav-item block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:bg-transparent md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >Services</a
               >
             </li>
             <li>
               <a
+                id="nav-link"
                 href="#about"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                class="nav-item block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:bg-transparent md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >About</a
               >
             </li>
@@ -90,14 +92,14 @@
             <li>
               <a
                 href="#resume"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                class="nav-item block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:bg-transparent md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >Resume</a
               >
             </li>
             <li>
               <a
                 href="#contact"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                class="nav-item block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:bg-transparent md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >Contact</a
               >
             </li>
@@ -109,7 +111,8 @@
     <!-- Navbar Ends here  -->
   </header>
   <body>
-    <section class="mt-10 bg-[#24263b]" id="home">
+    <section class="mt-10 bg-[#24263b]">
+      <span id="home" class="anchor"></span>
       <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <div
@@ -151,7 +154,8 @@
         </div>
       </div>
     </section>
-    <section class="bg-[#1f2235] text-white" id="services">
+    <section class="bg-[#1f2235] text-white">
+      <span id="services" class="anchor"></span>
       <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-lg text-center">
           <ion-icon
@@ -223,7 +227,8 @@
         </div>
       </div>
     </section>
-    <section class="bg-[#24263b] text-white" id="about">
+    <section class="bg-[#24263b] text-white">
+      <span id="about" class="anchor"></span>
       <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-lg text-center">
           <ion-icon
@@ -423,7 +428,8 @@
       </div>
     </section>
 
-    <section class="bg-[#24263b] text-white" id="resume">
+    <section class="bg-[#24263b] text-white">
+      <span id="resume" class="anchor"></span>
       <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-lg text-center">
           <ion-icon
@@ -544,8 +550,8 @@
         </div>
       </div>
     </section>
-
-    <section class="py-16 text-gray-800 bg-[#1f2235]" id="contact">
+    <span id="contact" class="anchor"></span>
+    <section class="py-16 text-gray-800 bg-[#1f2235]">
       <div class="block rounded-lg bg-[#1f2235]">
         <div
           class="max-w-screen-xl px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 dark:bg-[#24263b] text-gray-900 dark:text-white rounded-lg shadow-lg"
@@ -1599,6 +1605,7 @@
 
       <!-- Section: Design Block -->
     </section>
+
     <footer aria-label="Site Footer" class="bg-white dark:bg-[#24263b]">
       <div class="max-w-screen-xl px-4 pb-8 mx-auto sm:px-6 lg:px-8">
         <div
@@ -1760,6 +1767,24 @@
       </div>
     </footer>
 
+    <button
+      class="hidden fixed z-90 bottom-8 right-8 rounded-full border border-red-500 dark:border-white p-3 text-indigo-600 hover:bg-white dark:hover:bg-red-500 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
+      onclick="goToTop()"
+      id="to-top-button"
+      title="Go To Top"
+    >
+      <span class="sr-only"> Download </span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 384 512"
+        class="h-5 w-5 fill-red-500 dark:fill-white"
+      >
+        <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+        <path
+          d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+        />
+      </svg>
+    </button>
     <!-- Scripts -->
     <script src="https://unpkg.com/flowbite@1.6.1/dist/flowbite.min.js"></script>
     <script
